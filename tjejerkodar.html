@@ -36,8 +36,12 @@
         })
         var winner = options[Math.floor(Math.random()*options.length)]
         console.log(winner)
-        $("resultSection").click(submit)
-        })
+  
+        $(".resultSection").text(winner)
+
+        }
+        $("submit").click(submit)
+      })
 
 
     </script>
